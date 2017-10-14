@@ -13,6 +13,7 @@
 		41A078401F91171000CD60BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A0783F1F91171000CD60BD /* Assets.xcassets */; };
 		41A078431F91171000CD60BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A078411F91171000CD60BD /* LaunchScreen.storyboard */; };
 		41A0784B1F914BD000CD60BD /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0784A1F914BD000CD60BD /* SideMenuVC.swift */; };
+		41A0784D1F91FE7400CD60BD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0784C1F91FE7400CD60BD /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41A078421F91171000CD60BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A078441F91171000CD60BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A0784A1F914BD000CD60BD /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		41A0784C1F91FE7400CD60BD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				41A078381F91171000CD60BD /* AppDelegate.swift */,
 				41A0783A1F91171000CD60BD /* ViewController.swift */,
 				41A0784A1F914BD000CD60BD /* SideMenuVC.swift */,
+				41A0784C1F91FE7400CD60BD /* MainVC.swift */,
 				41A0783C1F91171000CD60BD /* Main.storyboard */,
 				41A0783F1F91171000CD60BD /* Assets.xcassets */,
 				41A078411F91171000CD60BD /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A0783B1F91171000CD60BD /* ViewController.swift in Sources */,
+				41A0784D1F91FE7400CD60BD /* MainVC.swift in Sources */,
 				41A078391F91171000CD60BD /* AppDelegate.swift in Sources */,
 				41A0784B1F914BD000CD60BD /* SideMenuVC.swift in Sources */,
 			);
