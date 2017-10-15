@@ -14,6 +14,9 @@
 		41A078431F91171000CD60BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A078411F91171000CD60BD /* LaunchScreen.storyboard */; };
 		41A0784B1F914BD000CD60BD /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0784A1F914BD000CD60BD /* SideMenuVC.swift */; };
 		41A0784D1F91FE7400CD60BD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0784C1F91FE7400CD60BD /* MainVC.swift */; };
+		41A0784F1F92208500CD60BD /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0784E1F92208500CD60BD /* ExerciseTableViewCell.swift */; };
+		41A078511F92681A00CD60BD /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A078501F92681A00CD60BD /* ExercisesViewController.swift */; };
+		41A078561F937CAA00CD60BD /* ExercisecViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A078551F937CAA00CD60BD /* ExercisecViewControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		41A078441F91171000CD60BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A0784A1F914BD000CD60BD /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		41A0784C1F91FE7400CD60BD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		41A0784E1F92208500CD60BD /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		41A078501F92681A00CD60BD /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		41A078551F937CAA00CD60BD /* ExercisecViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisecViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		41A078571F937FE600CD60BD /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
+		41A078581F937FE600CD60BD /* yoga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga.jpg; sourceTree = "<group>"; };
+		41A078591F937FE700CD60BD /* fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +70,17 @@
 				41A078381F91171000CD60BD /* AppDelegate.swift */,
 				41A0783A1F91171000CD60BD /* ViewController.swift */,
 				41A0784A1F914BD000CD60BD /* SideMenuVC.swift */,
+				41A078501F92681A00CD60BD /* ExercisesViewController.swift */,
+				41A0784E1F92208500CD60BD /* ExerciseTableViewCell.swift */,
 				41A0784C1F91FE7400CD60BD /* MainVC.swift */,
 				41A0783C1F91171000CD60BD /* Main.storyboard */,
+				41A078551F937CAA00CD60BD /* ExercisecViewControllerTableViewCell.swift */,
 				41A0783F1F91171000CD60BD /* Assets.xcassets */,
 				41A078411F91171000CD60BD /* LaunchScreen.storyboard */,
 				41A078441F91171000CD60BD /* Info.plist */,
+				41A078571F937FE600CD60BD /* face.jpg */,
+				41A078591F937FE700CD60BD /* fish.jpg */,
+				41A078581F937FE600CD60BD /* yoga.jpg */,
 			);
 			path = ASLI;
 			sourceTree = "<group>";
@@ -143,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A0783B1F91171000CD60BD /* ViewController.swift in Sources */,
+				41A0784F1F92208500CD60BD /* ExerciseTableViewCell.swift in Sources */,
+				41A078511F92681A00CD60BD /* ExercisesViewController.swift in Sources */,
 				41A0784D1F91FE7400CD60BD /* MainVC.swift in Sources */,
+				41A078561F937CAA00CD60BD /* ExercisecViewControllerTableViewCell.swift in Sources */,
 				41A078391F91171000CD60BD /* AppDelegate.swift in Sources */,
 				41A0784B1F914BD000CD60BD /* SideMenuVC.swift in Sources */,
 			);
