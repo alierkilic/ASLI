@@ -98,8 +98,7 @@ class LikedExercisesVC: UIViewController, UITableViewDataSource, UITableViewDele
         cell.myImage.image = imageArr[likedArr[indexPath.row]] as? UIImage
         cell.myImage.layer.cornerRadius = cell.myImage.frame.size.width / 2
         cell.myImage.clipsToBounds = true
-        cell.myImage.layer.borderColor = UIColor.yellow.cgColor
-        cell.myImage.layer.borderWidth = 3
+        
         cell.likeButton.tag = likedArr[indexPath.row]
         cell.likeButton.setImage(#imageLiteral(resourceName: "like_on.png"), for: .normal)
        

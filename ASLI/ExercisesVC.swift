@@ -72,8 +72,7 @@ class ExercisesVC: UIViewController, UITableViewDataSource, UITableViewDelegate 
         cell.myImage.image = imageArr[indexPath.row] as? UIImage
         cell.myImage.layer.cornerRadius = cell.myImage.frame.size.width / 2
         cell.myImage.clipsToBounds = true
-        cell.myImage.layer.borderColor = UIColor.yellow.cgColor
-        cell.myImage.layer.borderWidth = 3
+        
         //cell.myImage.layer.cornerRadius = (cell.myImage.image?.size.width)!/2
         //let image = imageArr[indexPath.row] as? UIImage
         //let image = UIImage(named: "face.jpg")
