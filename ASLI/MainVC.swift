@@ -9,10 +9,12 @@
 import UIKit
 
 class MainVC: UIViewController {
+    @IBOutlet weak var mainLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.tintColor = UIColor.black
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(showExercises),
                                                name: NSNotification.Name("ShowExercises"),
@@ -25,6 +27,10 @@ class MainVC: UIViewController {
                                                selector: #selector(showSettings),
                                                name: NSNotification.Name("ShowSettings"),
                                                object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(showLikedExercises),
+                                               name: NSNotification.Name("ShowLikedExercises"),
+                                               object: nil)
     
     }
     
@@ -36,6 +42,9 @@ class MainVC: UIViewController {
     }
     @objc func showSettings(){
         performSegue(withIdentifier: "ShowSettings", sender: nil)
+    }
+    @objc func showLikedExercises(){
+        performSegue(withIdentifier: "ShowLikedExercises", sender: nil)
     }
     @IBAction func onMoreTapped(){
     

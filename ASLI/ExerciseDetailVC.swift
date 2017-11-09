@@ -8,10 +8,12 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class ExerciseDetailVC: UIViewController {
 
+    //var moves = [Movement]()
     var getname = String()
     var getImage = UIImage()
+    
     
     @IBOutlet weak var imgImage: UIImageView!
     @IBOutlet weak var labelName: UILabel!
